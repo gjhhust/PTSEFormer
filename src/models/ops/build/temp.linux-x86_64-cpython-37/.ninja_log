@@ -1,0 +1,4 @@
+# ninja log v5
+1	7913	1699530150708892685	/data1/jiahaoguo/PTSEFormer/src/models/ops/build/temp.linux-x86_64-cpython-37/data1/jiahaoguo/PTSEFormer/src/models/ops/src/cpu/ms_deform_attn_cpu.o	39c959623d614c0a
+1	22354	1699530165144503802	/data1/jiahaoguo/PTSEFormer/src/models/ops/build/temp.linux-x86_64-cpython-37/data1/jiahaoguo/PTSEFormer/src/models/ops/src/vision.o	d0a328d0705f11af
+2	22772	1699530805862503978	/data1/jiahaoguo/PTSEFormer/src/models/ops/build/temp.linux-x86_64-cpython-37/data1/jiahaoguo/PTSEFormer/src/models/ops/src/cuda/ms_deform_attn_cuda.o	83217b47b5adf811
