@@ -1,5 +1,5 @@
 # PTSEFormer
-
+修改代码可以使用自定义数据集vidcoco.py，来加载coco格式标注的视频数据
 This repo is an official implementation of PTSEFormer, which is accepted by ECCV 2022. 
 
 ## Citing PTSEFormer
@@ -59,12 +59,12 @@ Please download the ILSVRC2015 DET and ILSVRC2015 VID dataset from [here](http:/
 
 The inference command line for testing on the validation dataset:
 
-    python -m torch.distributed.launch --nproc_per_node=8 tools/test.py --config-file experiments/PTSEFormer_r101_8gpus.yaml
+    python -m torch.distributed.launch --nproc_per_node=8 test.py --config-file experiments/PTSEFormer_r101_8gpus.yaml
 Pretrained model can be found [here](https://drive.google.com/file/d/1-rNHCRdld3iW2tVwPuZrN9o8QRm-aBYj/view?usp=share_link).
 
 ### Training
 
 The training command line for training on a combined dataset of VID and DET:
 
-    python -m torch.distributed.launch --nproc_per_node=8 tools/train.py --config-file experiments/PTSEFormer_r101_8gpus.yaml
+    python -m torch.distributed.launch --nproc_per_node=8 train.py --config-file experiments/PTSEFormer_r101_8gpus.yaml
 
